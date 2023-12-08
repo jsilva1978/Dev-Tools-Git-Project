@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        #keyboarlogoleft {
+            width: 30%;
+        }
+
+        header h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2em;
+            color: crimson;
+        }
+
+        .nav {
+            height: 100%;
+        }
+
+        #backimg {
+            margin:0;
+            background-image: url("./img/backgroud.jpg");
+            height: 80%;
+        }
+
+        .imgright {
+            padding: 10px;
+            height: 350px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- START HEADER-->
+    <header class="header  bg-dark d-flex text-white text-center py-3 ">
+        <div class="d-flex  p-2 w-25 justify-content-start my-3 mx-3">
+            <img id="keyboarlogoleft" src="./img/keyboard_left.png" alt="keyboard_left">
+        </div>
+
+        <div class="title">
+            <h1>Dev Tools: Git Project</h1>
+            <h3>Legendary Keyboards and Synthesizers</h3>
+        </div>
+
+        <div class="d-flex  p-2 w-25 justify-content-end my-3">
+            <img id="keyboarlogoleft" src="./img/keyboard_left.png" alt="keyboard_left">
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- Main Container-->
+    <div class="container-fluid">
+
+        <!-- Start NavBar -->
+        <div class="row">
+            <div class="col-lg-3">
+
+                <div class="d-flex">
+                    <div class="flex-column flex-shrink-0 p-3 bg-light d-none d-lg-block vh-100">
+                        <a href="/"
+                            class="d-flex h3 align-items-center mb-3 mb-md-0 me-md-auto link-dark  text-decoration-none">
+                            <span class="fs-4">Keyboards & Synthesizers</span>
+                        </a>
+                        <hr>
+                        <ul class="nav nav-pills flex-column mb-auto">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link active" aria-current="page">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark font-italic bg-light" href="./therodes.html">
+                                    <i class=" bi bi-book-half me-2"></i>The Rhodes
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark font-italic bg-light" data-bs-toggle="collapse"
+                                    href="./theminimoog">
+                                    <i class="bi bi-gear-fill me-2"></i>The Minimoog
+                                </a>
+                            </li>
+
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark font-italic bg-light" data-bs-toggle="collapse"
+                                    href="./themellotron.html">
+                                    <i class="bi bi-palette-fill me-2"></i>The Mellotron
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark font-italic bg-light" data-bs-toggle="collapse"
+                                    href="./thehammond.html">
+                                    <i class="bi bi-building me-2"></i>The Hammond B3 Organ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark font-italic bg-light" data-bs-toggle="collapse"
+                                    href="./yamahadx7.html">
+                                    <i class="bi bi-building me-2"></i>Yamaha DX7</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </nav>
+            <!-- END NAV BAR -->
+            <div class="col-lg-7 ">
+
+                <!-- START Background image -->
+                <div id="backimg" class="bg-image img-fluid  shadow-2-strong vh-100">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                            <div class="text-white">
+                                <marquee direction="keyboard_left">
+                                    <h1 class="footer mb-3">Old is best</h1>
+                                </marquee>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Background image -->
+            <!-- Anouncements Collumn-->
+            <div class="col-lg-2">
+                <h4>Announcements:</h4>
+
+                <div class="imgright">
+                    <div class="rusempire  p-3 d-flex align-items-center justify-content-start">
+                        <img class="rounded-3 border border-dark border-3 img-fluid" src="./img/shopping1.png"
+                            alt="shopping1">
+                    </div>
+                </div>
+
+
+                <div class="imgright">
+                    <div class="rusempire  p-3 d-flex align-items-center justify-content-start">
+                        <img class="rounded-3 border border-dark border-3 img-fluid" src="./img/shopping2.png"
+                            alt="shopping2">
+                    </div>
+               </div>
+          
+            </div>
+            <!-- FOOTER-->
+            <div class="col-lg-12">
+            <div class="container my-5 mw-100">
+
+                <footer class="text-center text-lg-start" style="background-color: #db6930;">
+                    <div class="container d-flex justify-content-center py-5">
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                            style="background-color: #54456b;">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                            style="background-color: #54456b;">
+                            <i class="fab fa-youtube"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                            style="background-color: #54456b;">
+                            <i class="fab fa-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                            style="background-color: #54456b;">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                    </div>
+
+
+                    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        © 2023 Dev Tools: Git Project -
+                        <a class="text-white"> by Carlos Silva</a>
+                    </div>
+                </footer>
+            </div>
+                <!-- FOOTER END -->
+
+            </div>
+        </div>
+
+</body>
+
+</html>
