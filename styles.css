@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+}
+
+#keyboarlogoleft {
+    width: 30%;
+}
+
+header h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: crimson;
+}
+
+.nav {
+    height: 100%;
+}
+
+#backimg {
+    margin:0;
+    background-image: url("./img/backgroud.jpg");
+    height: 80%;
+}
+
+.imgright {
+    padding: 10px;
+    height: 350px;
+}
+.mask {
+
+    height: 100%;
+}
