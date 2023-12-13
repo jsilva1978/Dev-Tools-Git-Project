@@ -30,6 +30,44 @@ header h3 {
 
     height: 100%;
 }
-.carousel-inner h6 {
-    font-size: 10px;
+hr {
+    border: none;  
+    height: 2px; 
+    background-color:black;
+}
+.text h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text p {
+    text-align: justify;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-leftcolummn a {
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+
+    width: auto;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+
+.imgright a {
+    
+margin: 0 18px;
+    font-size: 12px;
+    font-style: italic;
+    
+}
+
+.imgright {
+
+    width: auto;
+    height: auto;
+    
 }
