@@ -2,8 +2,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
 #keyboarlogoleft {
     width: 30%;
 }
@@ -44,3 +42,103 @@ hr {
     text-align: justify;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.text-leftcolummn a {
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+
+    width: auto;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+
+.imgright a {
+    
+margin: 0 18px;
+    font-size: 12px;
+    font-style: italic;
+    
+}
+
+.imgright {
+
+    width: auto;
+    height: auto;
+    
+}
+
+
+.contact-section {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info .info-item {
+    flex: 1 0 calc(33.33% - 20px);
+    margin-right: 30px;
+}
+
+.contact-info .info-item:last-child {
+    margin-right: 0;
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
