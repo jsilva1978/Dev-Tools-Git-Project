@@ -30,3 +30,15 @@ header h3 {
 
     height: 100%;
 }
+hr {
+    border: none;  
+    height: 2px; 
+    background-color:black;
+}
+.text h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text p {
+    text-align: justify;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
