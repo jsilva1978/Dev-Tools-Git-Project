@@ -19,7 +19,7 @@ header h3 {
 #backimg {
     margin:0;
     background-image: url("./img/backgroud.jpg");
-    height: 80%;
+    height: 100%;
 }
 
 .imgright {
